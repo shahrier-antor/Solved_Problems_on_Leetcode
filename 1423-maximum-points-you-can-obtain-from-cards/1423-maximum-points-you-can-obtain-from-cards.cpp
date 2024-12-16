@@ -38,18 +38,18 @@ public:
     int maxScore(vector<int>& cardPoints, int k) {
         int maximum = 0;
         for(int i = cardPoints.size()- k; i<cardPoints.size(); i++) maximum+=cardPoints[i];
-        cout<<maximum<<endl;
+
         int left = 0, right = cardPoints.size()-k;
         int sum = maximum;
+
         while(right<cardPoints.size()){
             sum += cardPoints[left];
             sum -= cardPoints[right];
-            cout<<left<<" "<<right<<" "<<endl;
-            cout<<sum<<" "<<maximum<<endl;
             maximum = max(maximum, sum);
             left++;
             right++;
         }
+    
         return maximum;
     }
 };
