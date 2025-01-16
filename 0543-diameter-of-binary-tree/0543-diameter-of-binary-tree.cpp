@@ -11,15 +11,18 @@
  */
 class Solution {
 public:
-    pair<int,int>solve(TreeNode* root, int diameter){
-        if(root==nullptr)return {0,diameter};
-        auto left = solve(root->left,diameter);
-        auto right = solve(root->right,diameter);
-        diameter = max (left.first+right.first, diameter);
-        return {max(left.first,right.first)+1,diameter};
+    int diameter; 
+    int solve(TreeNode* root){
+        if(root == nullptr)return 0;
+        int left = solve(root->left);
+        int right = solve(root->right);
+        diameter = max (diameter,left+right);
+        return max(left,right)+1;
     }
+
     int diameterOfBinaryTree(TreeNode* root) {
-        auto answer = solve(root,0);
-        return answer.second;
+        diameter = 0;
+        int answer = solve(root);
+        return diameter;
     }
 };
