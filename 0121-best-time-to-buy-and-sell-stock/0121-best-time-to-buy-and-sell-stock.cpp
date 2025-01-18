@@ -12,15 +12,32 @@
 //     }
 // };
 
+// class Solution {
+// public:
+//     int maxProfit(vector<int>& prices) {
+//       int buyingPrice = prices[0];
+//       int answer = 0;
+//       for(int price: prices){
+//         buyingPrice = min(buyingPrice, price);
+//         answer = max(answer, price - buyingPrice);
+//       }
+//       return answer;
+//     }
+// };
+
+
+
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
-      int buyingPrice = 100000;
-      int answer = 0;
-      for(int price: prices){
-        buyingPrice = min(buyingPrice, price);
-        answer = max(answer, price - buyingPrice);
+      int buy = prices[0], maxprofit = INT_MIN;
+      int high = 1;
+      
+      while(high<prices.size()){
+        maxprofit = max(maxprofit,prices[high]-buy);
+        buy = min(buy, prices[high]);
+        high++;
       }
-      return answer;
+      return max(maxprofit,0);
     }
 };
