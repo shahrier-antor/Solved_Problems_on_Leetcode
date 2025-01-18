@@ -1,60 +1,64 @@
+
 // class Solution {
 // public:
 //     vector<int> topKFrequent(vector<int>& nums, int k) {
         
 //         unordered_map<int,int>h_map;
-//         priority_queue<pair<int,int>>pq;
 //         vector<int>answer;
-//         for(int i:nums){
-//             h_map[i]++;
-//         }
-//         for(auto& [key,value]:h_map){
-//             pq.push({value,key});
-//         }
-        
-//         while(k-- > 0){
-//             int key = pq.top().second;
-//             answer.push_back(key);
-//             pq.pop();
+//         vector<queue<int>>bucket(nums.size()+1);
+
+//         for(int i : nums)h_map[i]++;
+
+//         for(auto& [key,freq]: h_map){
+//             bucket[freq].push(key);
 //         }
 
-//         return answer;
+//         for(int i = bucket.size()-1; i>=0 && answer.size()<k ; i--){
 
-    
+//             while(!bucket[i].empty() && answer.size()<k)
+//             {
+//                 answer.push_back(bucket[i].front());
+//                 bucket[i].pop();
+//             }
+//         }
+
+
+
+//         return answer; 
 //     }
 // };
 
-// 2 -- 3
-// 3 -- 3
 
-// 3
-// {2,3}
+
+
+
+
+
 
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
-        
-        unordered_map<int,int>h_map;
-        vector<int>answer;
-        vector<queue<int>>bucket(nums.size()+1);
+     unordered_map<int,int>h_map;
+     for(auto num:nums)h_map[num]++;
 
-        for(int i : nums)h_map[i]++;
+     vector<queue<int>> topk(nums.size()+1);
 
-        for(auto& [key,freq]: h_map){
-            bucket[freq].push(key);
-        }
+     for(auto [num, freq]: h_map){
+        topk[freq].push(num);
+     }
 
-        for(int i = bucket.size()-1; i>=0 && answer.size()<k ; i--){
-
-            while(!bucket[i].empty() && answer.size()<k)
-            {
-                answer.push_back(bucket[i].front());
-                bucket[i].pop();
+     vector<int>answer;
+     for(int i = topk.size()-1; i>=0; i--){
+        if(!topk[i].empty()){
+            while(!topk[i].empty() && answer.size()<k){
+                answer.push_back(topk[i].front());
+                topk[i].pop();
             }
         }
+        if(answer.size()==k)break;  
+     }
 
-        
-
-        return answer; 
+     return answer;
     }
+     
 };
