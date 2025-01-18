@@ -1,53 +1,52 @@
 // class Solution {
 // public:
 //     int lengthOfLongestSubstring(string s) {
-//         int a_pointer = 0; 
-//         int b_pointer = 0; 
-//         int max_length = 0; 
-//         unordered_set<char> hash_set; 
+//         int low = 0, high=0, length = 0;
+//         unordered_map<char,int>h_map;
 
-//         while (b_pointer < s.length()) {
-//             if (hash_set.find(s[b_pointer]) == hash_set.end()) {
-//                 hash_set.insert(s[b_pointer]);
-//                 b_pointer++;
-//                 int size = hash_set.size();
-//                 max_length = max(size, max_length); 
-//             } else {
-//                 hash_set.erase(s[a_pointer]);
-//                 a_pointer++;
+//         while(high<s.size()){
+            
+//             h_map[s[high]]++;
+            
+//             while( h_map[s[high]]>1 && low<=high){
+//              h_map[s[low]]--;
+//              low++;
 //             }
+//             length = max(length,high-low+1); 
+//             high++;
 //         }
-//         return max_length;
+
+//         return length;
+      
 //     }
 // };
 
-// abcabcbb
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        int low = 0, high=0, length = 0;
-        unordered_map<string,int>h_map;
-
+        int left = 0, high = 0, answer = 0;
+        unordered_map<char, int>h_map;
+        int temp = 0;
         while(high<s.size()){
-            
-            string right = "";
-            right+=s[high];
-           // cout<< "input :"<< right<<"inputends"<<endl;
-            h_map[right]++;
-            
-            while(h_map[right]>1 && low<=high){
-             string left = "";
-             left+=s[low];
-             h_map[left]--;
-             low++;
-            }
-            length = max(length,high-low+1); 
-             high++;
-        }
+            h_map[s[high]]++;
+           
 
-        return length;
-      
+            if(h_map[s[high]]>1){
+                answer = max(answer, temp);
+                while(h_map[s[high]]>1){
+                    h_map[s[left]]--;
+                    temp--;
+                    if(h_map[s[left]]==0) h_map.erase(s[left]);
+                    left++;
+                }
+            }
+            temp++;
+            high++;
+        }
+        answer = max(answer, temp);
+        return answer;
     }
 };
+
 
 
