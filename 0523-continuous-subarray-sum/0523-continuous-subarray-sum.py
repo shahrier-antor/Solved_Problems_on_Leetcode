@@ -1,16 +1,16 @@
 class Solution:
     def checkSubarraySum(self, nums: List[int], k: int) -> bool:
-        hashMap = defaultdict(list)
+        hashMap = defaultdict(int)
         prefixSum = 0
-        hashMap[0].append(-1)
-        for i in range(0, len(nums)):
-            prefixSum+=nums[i]
+        hashMap[0] = -1
+        for idx, num in enumerate(nums):
+            prefixSum+=num
             remain = prefixSum%k
             if remain in hashMap:
-                for idx in hashMap[remain]:
-                    if i - idx > 1:
-                        return True
-            hashMap[remain].append(i)
+                if idx - hashMap[remain] > 1:
+                    return True
+            else:
+                hashMap[remain] = idx
         
         return False
 
