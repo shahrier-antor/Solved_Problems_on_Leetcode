@@ -1,7 +1,13 @@
 class Solution:
     def numberOfPoints(self, nums: List[List[int]]) -> int:
-        points = set()
+        ans = 0
+        range_tracker = [0]*102
         for num in nums:
-            for i in range(num[0], num[1] + 1):
-                points.add(i)
-        return len(points)
+            range_tracker[num[0]]+=1
+            range_tracker[num[1]+1]-=1
+        sum = 0
+        for i in range(len(range_tracker)):
+            sum+=range_tracker[i]
+            if sum>0:
+                ans+=1
+        return ans 
