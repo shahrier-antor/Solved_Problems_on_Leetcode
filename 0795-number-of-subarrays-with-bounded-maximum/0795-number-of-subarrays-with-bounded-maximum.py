@@ -1,19 +1,17 @@
+
 class Solution:
     def numSubarrayBoundedMax(self, nums: List[int], left: int, right: int) -> int:
-        low, high = 0,0
         ans = 0
-        max_ele = -1
+        low = 0          # 1 past the last index where nums[i] > right
+        add = 0          # number of valid subarrays ending at previous index
 
-        while(high<len(nums)):
-            max_ele = max(max_ele, nums[high])
-            if left<=max_ele<=right:
-                if max_ele == nums[high]:
-                    ans+= (high-low+1)
-                else: ans+=1
-            else:
-                high +=1
-                low = high
-                max_ele = -1
-                continue
-            high+=1
-        return ans 
+        for high, x in enumerate(nums):
+            if x > right:
+                low = high + 1   # window is broken
+                add = 0          # nothing valid ends here
+            elif x >= left:       # x is a "good" max, resets add
+                add = high - low + 1
+                ans += add
+            else:                 # x < left, extend previous valid runs
+                ans += add
+        return ans
