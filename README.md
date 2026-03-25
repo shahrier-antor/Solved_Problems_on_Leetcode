@@ -5,10 +5,12 @@ Here I have uploaded all the problems I have solved in Leetcode exploring data s
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
 ## Binary Search
 | Problem Name | Difficulty |
@@ -26,4 +28,8 @@ Here I have uploaded all the problems I have solved in Leetcode exploring data s
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0128-longest-consecutive-sequence/) | Medium |
 <!---LeetCode Topics End-->
