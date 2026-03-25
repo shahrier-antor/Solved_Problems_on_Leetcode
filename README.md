@@ -5,6 +5,7 @@ Here I have uploaded all the problems I have solved in Leetcode exploring data s
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0015-3sum](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0015-3sum/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
 ## Hash Table
@@ -19,6 +20,7 @@ Here I have uploaded all the problems I have solved in Leetcode exploring data s
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0015-3sum](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0015-3sum/) | Medium |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
 ## Prefix Sum
 | Problem Name | Difficulty |
@@ -32,4 +34,8 @@ Here I have uploaded all the problems I have solved in Leetcode exploring data s
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0128-longest-consecutive-sequence/) | Medium |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0015-3sum](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0015-3sum/) | Medium |
 <!---LeetCode Topics End-->
