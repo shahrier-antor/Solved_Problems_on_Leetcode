@@ -11,11 +11,11 @@ public:
                 int sum = nums[i] + nums[j] + nums[k];
                 if(sum < 0 ){
                     j++;
-                    while(j<k && nums[j] == nums[j-1])j++;
+                    // while(j<k && nums[j] == nums[j-1])j++;
                 } 
                 else if (sum > 0){
                     k--;
-                    while(k>j && nums[k] == nums[k+1])k--;
+                   // while(k>j && nums[k] == nums[k+1])k--;
                 } 
                 else {
                     vector<int>temp ={nums[i], nums[j], nums[k]};
