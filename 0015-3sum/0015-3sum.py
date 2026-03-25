@@ -1,33 +1,38 @@
 class Solution:
+    # nums = [-4,-1,-1,0,1,2]
+
+
+
     def threeSum(self, nums):
+        results = []
         nums.sort()
-        result = []
 
         for i in range(len(nums)):
-            # skip duplicate i
             if i > 0 and nums[i] == nums[i - 1]:
                 continue
 
-            left = i + 1
-            right = len(nums) - 1
+            j = i + 1
+            k = len(nums) - 1
 
-            while left < right:
-                s = nums[i] + nums[left] + nums[right]
+            while j < k:
+                total = nums[i] + nums[j] + nums[k]
 
-                if s == 0:
-                    result.append([nums[i], nums[left], nums[right]])
-                    left += 1
-                    right -= 1
-
-                elif s < 0:
-                    left += 1
+                if total < 0:
+                    j += 1
+                    while j < k and nums[j] == nums[j - 1]:
+                        j += 1
+                elif total > 0:
+                    k -= 1
+                    while j < k and nums[k] == nums[k + 1]:
+                        k -= 1
                 else:
-                    right -= 1
+                    results.append([nums[i], nums[j], nums[k]])
+                    j += 1
+                    k -= 1
 
-        # remove duplicates at the end
-        unique = []
-        for triplet in result:
-            if triplet not in unique:
-                unique.append(triplet)
+                    while j < k and nums[j] == nums[j - 1]:
+                        j += 1
+                    while j < k and nums[k] == nums[k + 1]:
+                        k -= 1
 
-        return unique
+        return results
