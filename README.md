@@ -5,6 +5,7 @@ Here I have uploaded all the problems I have solved in Leetcode exploring data s
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0015-3sum/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
@@ -37,5 +38,10 @@ Here I have uploaded all the problems I have solved in Leetcode exploring data s
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0015-3sum/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0011-container-with-most-water](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0011-container-with-most-water/) | Medium |
 <!---LeetCode Topics End-->
