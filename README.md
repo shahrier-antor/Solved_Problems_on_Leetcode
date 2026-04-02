@@ -12,6 +12,7 @@ Here I have uploaded all the problems I have solved in Leetcode exploring data s
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
@@ -48,9 +49,11 @@ Here I have uploaded all the problems I have solved in Leetcode exploring data s
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 <!---LeetCode Topics End-->
