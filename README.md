@@ -19,6 +19,7 @@ Here I have uploaded all the problems I have solved in Leetcode exploring data s
 | [0036-valid-sudoku](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0036-valid-sudoku/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0424-longest-repeating-character-replacement/) | Medium |
+| [0567-permutation-in-string](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0567-permutation-in-string/) | Medium |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
 ## Binary Search
 | Problem Name | Difficulty |
@@ -49,6 +50,7 @@ Here I have uploaded all the problems I have solved in Leetcode exploring data s
 | [0015-3sum](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0015-3sum/) | Medium |
 | [0042-trapping-rain-water](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0042-trapping-rain-water/) | Hard |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
+| [0567-permutation-in-string](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0567-permutation-in-string/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -58,11 +60,13 @@ Here I have uploaded all the problems I have solved in Leetcode exploring data s
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0424-longest-repeating-character-replacement/) | Medium |
+| [0567-permutation-in-string](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0567-permutation-in-string/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0424-longest-repeating-character-replacement/) | Medium |
+| [0567-permutation-in-string](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0567-permutation-in-string/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
