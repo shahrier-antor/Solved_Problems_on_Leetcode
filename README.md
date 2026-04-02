@@ -9,6 +9,7 @@ Here I have uploaded all the problems I have solved in Leetcode exploring data s
 | [0015-3sum](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0015-3sum/) | Medium |
 | [0042-trapping-rain-water](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0042-trapping-rain-water/) | Hard |
 | [0128-longest-consecutive-sequence](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0128-longest-consecutive-sequence/) | Medium |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -20,6 +21,7 @@ Here I have uploaded all the problems I have solved in Leetcode exploring data s
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
 ## Sorting
 | Problem Name | Difficulty |
@@ -44,6 +46,7 @@ Here I have uploaded all the problems I have solved in Leetcode exploring data s
 | [0011-container-with-most-water](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0015-3sum/) | Medium |
 | [0042-trapping-rain-water](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0042-trapping-rain-water/) | Hard |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
