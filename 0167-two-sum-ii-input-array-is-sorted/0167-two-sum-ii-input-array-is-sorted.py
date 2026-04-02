@@ -7,8 +7,11 @@ class Solution:
             sum = numbers[left] + numbers[right]
             if sum == target:
                 return [left+1, right+1]
-            elif sum>target:
-                right-=1
-            else:
-                left+=1
+            else: 
+                mid = (right - left)//2
+                if numbers[left] + numbers[mid]<target:
+                    left = mid
+                else:
+                    right = mid
+
         
