@@ -9,6 +9,7 @@ Here I have uploaded all the problems I have solved in Leetcode exploring data s
 | [0015-3sum](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0015-3sum/) | Medium |
 | [0036-valid-sudoku](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0036-valid-sudoku/) | Medium |
 | [0042-trapping-rain-water](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0042-trapping-rain-water/) | Hard |
+| [0053-maximum-subarray](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0053-maximum-subarray/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0209-minimum-size-subarray-sum](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0209-minimum-size-subarray-sum/) | Medium |
@@ -75,6 +76,7 @@ Here I have uploaded all the problems I have solved in Leetcode exploring data s
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0042-trapping-rain-water/) | Hard |
+| [0053-maximum-subarray](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0053-maximum-subarray/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -87,4 +89,8 @@ Here I have uploaded all the problems I have solved in Leetcode exploring data s
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0036-valid-sudoku](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0036-valid-sudoku/) | Medium |
+## Divide and Conquer
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0053-maximum-subarray](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0053-maximum-subarray/) | Medium |
 <!---LeetCode Topics End-->
