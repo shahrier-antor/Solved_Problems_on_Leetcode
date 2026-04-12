@@ -13,6 +13,7 @@ Here I have uploaded all the problems I have solved in Leetcode exploring data s
 | [0128-longest-consecutive-sequence](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0209-minimum-size-subarray-sum](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0209-minimum-size-subarray-sum/) | Medium |
+| [0658-find-k-closest-elements](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0658-find-k-closest-elements/) | Medium |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -28,11 +29,13 @@ Here I have uploaded all the problems I have solved in Leetcode exploring data s
 | ------- | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0209-minimum-size-subarray-sum](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0209-minimum-size-subarray-sum/) | Medium |
+| [0658-find-k-closest-elements](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0658-find-k-closest-elements/) | Medium |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0015-3sum/) | Medium |
+| [0658-find-k-closest-elements](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0658-find-k-closest-elements/) | Medium |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
 ## Prefix Sum
 | Problem Name | Difficulty |
@@ -55,6 +58,7 @@ Here I have uploaded all the problems I have solved in Leetcode exploring data s
 | [0042-trapping-rain-water](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0042-trapping-rain-water/) | Hard |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0567-permutation-in-string](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0567-permutation-in-string/) | Medium |
+| [0658-find-k-closest-elements](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0658-find-k-closest-elements/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -72,6 +76,7 @@ Here I have uploaded all the problems I have solved in Leetcode exploring data s
 | [0209-minimum-size-subarray-sum](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0567-permutation-in-string](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0567-permutation-in-string/) | Medium |
+| [0658-find-k-closest-elements](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0658-find-k-closest-elements/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -93,4 +98,8 @@ Here I have uploaded all the problems I have solved in Leetcode exploring data s
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0053-maximum-subarray](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0053-maximum-subarray/) | Medium |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0658-find-k-closest-elements](https://github.com/shahrier-antor/Leetcode_Problem_Solve/tree/main/0658-find-k-closest-elements/) | Medium |
 <!---LeetCode Topics End-->
